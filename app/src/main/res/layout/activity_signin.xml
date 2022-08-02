@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninActivity">
+
+    <EditText
+        android:id="@+id/etClubName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:hint="Enter Club Name "
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/etNewId"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/etClubName"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:hint="Enter Mail Id "
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etNewId"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:hint="Enter Password"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/etNewPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etNewPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:hint="Confirm Password"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etNewPasswordConfirm"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
