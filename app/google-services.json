@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86921549905",
+    "project_id": "khelo-india-41576",
+    "storage_bucket": "khelo-india-41576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86921549905:android:c2e8447589bd09bfab4070",
+        "android_client_info": {
+          "package_name": "com.uttamsaha.kheloindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86921549905-9vnt0dvj6tu4marnqt252llf4qcr5t65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJO2bHaV2zIzBfcfzGp96C397FfT2VsfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86921549905-9vnt0dvj6tu4marnqt252llf4qcr5t65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

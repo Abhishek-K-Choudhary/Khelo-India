@@ -18,7 +18,7 @@ class Activity1 : AppCompatActivity() {
         btnVisitor = findViewById(R.id.btnVisitor)
 
         btnHost.setOnClickListener{
-            val intent = Intent(this@Activity1,MainActivity::class.java)
+            val intent = Intent(this@Activity1,LoginActivity::class.java)
             startActivity(intent)
         }
 

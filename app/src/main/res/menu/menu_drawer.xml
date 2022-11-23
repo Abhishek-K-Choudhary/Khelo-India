@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_new_tournament"
+            android:title="New Tournament"
+            android:icon="@drawable/ic_new_tournament"/>
+
+        <item
+            android:id="@+id/nav_new_match"
+            android:title="New Match"
+            android:icon="@drawable/ic_new_match"/>
+
+        <item
+            android:id="@+id/nav_points_table"
+            android:title="Points Table "/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:title="History"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout"/>
+
+    </group>
+
+</menu>
